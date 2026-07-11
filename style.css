@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+
+font-family: 'Inter', sans-serif;
+
+
+
 /* Common Templates */
 
 /* For Thematic Blue */
@@ -46,3 +51,30 @@ nav div button {
     border-radius: 8px;
 }   
 
+
+/* header */
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+header h1 {
+    color: white;
+    
+}
+
+header p {
+    color: white;
+
+}
