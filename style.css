@@ -66,15 +66,37 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
+    
 header h1 {
     color: white;
-    
+    margin-bottom: 60px;
+    padding: 0 20px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+header h1 .italic {
+    font-style: italic;
+    font-weight: 700;
 }
 
 header p {
     color: white;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 700px;
+}
 
+header button {
+    padding: 16px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 80px;
+    
 }
