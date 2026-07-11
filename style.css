@@ -124,7 +124,7 @@ header button {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 40px;
-    max-width: 1005px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: left;
 }
@@ -164,3 +164,118 @@ header button {
     color: white;
     margin-top: 4px;
 }  
+
+
+
+
+/* Pricing Section */
+
+.pricing-section {
+    padding: 100px 90px;
+    background: white;
+}
+
+.pricing-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing-heading h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0D1B2A; 
+    margin-bottom: 12px;
+}
+
+.pricing-heading p {
+    color: grey;
+    font-size: 16px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pricing-card {
+    width: 320px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.plan {
+    font-size: 12px;
+    font-weight: 700;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.pricing-card h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 6px;
+}
+
+.person {
+    color: #6B7280;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.pricing-card ul {
+    list-style: disc;
+    padding-left: 20px;
+ 
+}
+
+.pricing-card ul li {
+    color: #4B5563;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.pricing-card button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #2563EB;
+    background: #fff;
+    color: #2563EB;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* Pro Card */
+
+.pro-card {
+    background: #0D1B2A;
+    color: #fff;
+    border: none;
+}
+
+.pro-card h2,
+.pro-card .plan,
+.pro-card .person {
+    color: #fff;
+}
+
+.pro-card ul li {
+    color: #E5E7EB;
+}
+
+
+.pro-card button {
+    background: #2563EB;
+    color: #fff;
+    border: none;
+}
+ 
