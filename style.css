@@ -100,3 +100,67 @@ header button {
     margin-top: 80px;
     
 }
+
+
+/* meet the speakers section    */
+
+
+
+.meet-the-speakers {
+    padding: 100px 90px;
+    text-align: center;
+}
+
+.meet-the-speakers > div > h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1005px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.speaker-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker-card > div:first-child img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.speaker-card div h4 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    color: #2563EB;
+    margin-top: 20px;
+}
+
+.speaker-card div h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-top: 6px;
+}
+
+.speaker-card div p {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-top: 4px;
+}  
