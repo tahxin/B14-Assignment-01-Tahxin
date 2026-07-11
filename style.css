@@ -345,5 +345,33 @@ header button {
 
 
 
+/* footer */
+
+footer {
+    background-color: #0D1B2A;
+    color: #6B7280;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 9px;
+}           
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 9px;
+    color: #6B7280;
+}
+
+.footer-left {
+    font-size: 9px;
+    color: #6B7280;
+}
+
+
 
  
