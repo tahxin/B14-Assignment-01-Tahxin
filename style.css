@@ -1,0 +1,48 @@
+/* Universal Selectors */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Templates */
+
+/* For Thematic Blue */
+
+.blue {
+    background-color: #2563EB;
+    color:white;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 90px;
+    background-color: white;;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav div ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav div ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #575757;
+}    
+
+nav div button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}   
+
