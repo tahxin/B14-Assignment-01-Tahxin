@@ -278,4 +278,72 @@ header button {
     color: #fff;
     border: none;
 }
+
+
+
+
+/* newsletter section */
+
+
+.newsletter {
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.newsletter > p:first-child {
+    color: #2563EB;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.newsletter h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.newsletter > p:nth-of-type(2) {
+    max-width: 600px;
+    margin: 0 auto 35px;
+    color: #cfcfcf;
+    line-height: 1.6;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.newsletter input {
+    width: 320px;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.newsletter button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563EB;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #0D1B2A;
+}
+
+
+
+
  
